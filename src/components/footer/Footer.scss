@@ -1,0 +1,47 @@
+@import "../../Sass/mixin";
+@import "../../Sass/variables";
+
+.footer-container {
+  width: 100%;
+  height: auto;
+  //   padding: 1rem 0rem;
+  //   background-color: green;
+  &-content {
+    width: 85%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding: 0.5rem 0rem;
+    // background-color: aqua;
+    & > h1 {
+      font-weight: 400;
+      font-size: 3.5rem;
+      line-height: 52px;
+      letter-spacing: 0.055em;
+      color: #14279b;
+    }
+    &-one {
+      width: 100%;
+      height: auto;
+      margin-top: 2rem;
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem 0rem;
+      //   background-color: red;
+      & > img {
+        width: 240px;
+        height: 236px;
+        cursor: pointer;
+      }
+    }
+    &-two {
+      width: 100%;
+      height: auto;
+      //   padding: 0.5rem 0rem;
+    //   background-color: yellowgreen;
+      & > img {
+        width: 100%;
+      }
+    }
+  }
+}
